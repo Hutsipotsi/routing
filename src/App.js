@@ -5,10 +5,12 @@ import About from './About';
 
 function App() {
   return (
+    <div>
     <Switch>
       <Route path="/" component={Home} exact />
       <Route path="/about" component={About} />
       </Switch>
+      </div>
   );
 }
 
